@@ -16,6 +16,8 @@ function hangmanGame(randomWord) {
 
 	var wrongGuesses = [];
 
+	var alphabet = "abcdefghijklmnopqrstuvwxyz"
+
 	document.onkeyup = function(event) {
 
 		var userGuess = event.key;
