@@ -1,0 +1,38 @@
+
+body {
+	background-color: #000000;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 60%;
+}
+
+.movie-img {
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+
+div.panel-body {
+  /*border-style: dotted;
+	border-width: 5px;
+	border-color: #FF0000;*/
+	background-color: #000000;
+	outline: 5px dotted #FF0000;
+}
+
+p {
+	color: #FFFFFF;
+	font-family: 'Overpass Mono', monospace;
+	font-size: 20px;
+	text-align: center;
+}
+
+#answerHeader {
+	color: #FFFFFF;
+	font-family: 'Overpass Mono', monospace;
+	font-size: 40px;
+	text-align: center;
+}
